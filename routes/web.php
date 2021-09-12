@@ -19,3 +19,4 @@ use App\Http\Controllers\LifeCycleTestController;
 // });
 
 Route::get('servicecontainertest', [LifeCycleTestController::class, 'showServiceContainerTest']);
+Route::get('serviceprovidertest', [LifeCycleTestController::class, 'showServiceProviderTest']);
